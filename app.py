@@ -83,7 +83,7 @@ with st.form("Saved periods"):
 
 
         link = dict(source=source, target=target,value=value)
-        node = dict(label=label,pad=20,thickness=25,color="#000000")
+        node = dict(label=label,pad=20,thickness=25,color="#00684A")
         data = go.Sankey(link=link,node=node)
 
         fig = go.Figure(data)
